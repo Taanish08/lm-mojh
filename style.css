@@ -1,0 +1,32 @@
+canvas {
+    
+    border:5px solid white ;
+    border-radius: 20px;
+    animation-name: tt;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes tt {
+    from {box-shadow: 1px 1px 38px grey;}
+    to {box-shadow:1px 1px 38px white ;}
+}
+
+body {
+    background-color: #fbd139
+}
+
+p {
+    font-size: 25px;
+    padding-top: 10px;
+   
+}
+h1 {
+    background-color: antiquewhite ;
+}
+#show_doodles {
+    float: right;
+}
+
